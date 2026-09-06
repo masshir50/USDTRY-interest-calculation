@@ -25,7 +25,7 @@ compound_mode = st.sidebar.radio(
     "Interest Type", ["Compound Interest", "Simple Interest"]
 )
 try_gross = st.sidebar.slider(
-    "TRY Gross Interest Rate (%)", min_value=10.0, max_value=60.0, value=45.0
+    "TRY Gross Interest Rate (%)", min_value=10.0, max_value=60.0, value=39.0
 )
 tax_rate = st.sidebar.slider(
     "Withholding Tax / Stopaj (%)", min_value=0.0, max_value=25.0, value=17.5
