@@ -14,10 +14,10 @@ initial_usd = st.sidebar.number_input(
     "Initial USD Capital (USD)", value=10000, step=1000
 )
 monthly_contrib_usd = st.sidebar.number_input(
-    "Monthly USD Contribution (USD)", value=500, step=100
+    "Monthly USD Contribution (USD)", value=0, step=100
 )
 years = st.sidebar.slider(
-    "Time Horizon (Years)", min_value=1, max_value=5, value=3
+    "Time Horizon (Years)", min_value=1, max_value=5, value=1
 )
 
 st.sidebar.header("2. Rates & Mode")
